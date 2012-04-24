@@ -1,0 +1,8 @@
+#+title: Problemas resueltos de la Olimpiada de Matemáticas en Hidalgo
+
+A book which hopefully will help prepare for the Math Olympiad. 
+
+Useful links:
+
+- http://sites.google.com/site/ohmpagina/
+- http://entrenamientosohm.wordpress.com/
