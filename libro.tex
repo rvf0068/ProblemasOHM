@@ -1,0 +1,51 @@
+\documentclass{book}
+
+\usepackage[latin1]{inputenc} % para que TeX reconozca acentos, eñes y signos ¿¡
+                              % puestos directamente en el texto
+
+\usepackage[T1]{fontenc} % para que los acentos y las eñes sean
+\usepackage{lmodern}     % símbolos tomados directamente de los tipos
+                         % de letras y no caracteres compuestos.
+
+\usepackage[spanish]{babel} % para que palabras como "Chapter" salgan
+                            % en español y se usen los patrones de
+                            % división de palabras.
+
+\usepackage{amsmath,amsfonts}
+
+\usepackage{macrosohm} % nuestros macros
+
+\title{Olimpiada de Matemáticas en Hidalgo\\ Problemas resueltos}
+\author{Comité olímpico de Matemáticas en Hidalgo}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\tableofcontents
+
+\include{introduccion}
+
+\mainmatter
+
+\include{2007}
+\include{2008}
+\include{2009}
+\include{2010}
+\include{2011}
+\include{2012}
+
+\end{document}
+
+
+% lo que sigue ayuda cuando se edita en Emacs
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-PDF-mode: t
+%%% TeX-source-correlate-mode: t
+%%% eval: (set-input-method "spanish-prefix")
+%%% End: 
