@@ -2,35 +2,35 @@
 
 Para contribuir con soluciones se sugieren los siguientes pasos:
 
-1. Obtener una cuenta gratuita en Github [[https://github.com/signup/free][aquí]], y enviarme un correo
+1) Obtener una cuenta gratuita en Github [[https://github.com/signup/free][aquí]], y enviarme un correo
    con el nombre de usuario para que lo incorpore a la lista de
    colaboradores. 
 
-2. Instalar el programa ~git~. Hay instrucciones [[http://help.github.com/set-up-git-redirect][aquí]].
+2) Instalar el programa ~git~. Hay instrucciones [[http://help.github.com/set-up-git-redirect][aquí]].
 
-3. Obtener una "clave SSH", (lo cual necesitará crear una
+3) Obtener una "clave SSH", (lo cual necesitará crear una
    "passphrase", de preferencia, distinta a la contraseña de Github) y
    darla a Github, como se indica en la página del paso anterior.
 
-4. En nuestra máquina, usando la terminal, hay que dar el siguiente
+4) En nuestra máquina, usando la terminal, hay que dar el siguiente
    comando, el cual creará un subdirectorio llamado ~ProblemasOHM~, que
    contiene los archivos LaTeX que estamos editando.
    : $ git clone git@github.com:rvf0068/ProblemasOHM.git
 
-5. Editar algún archivo con cualquier editor.
+5) Editar algún archivo con cualquier editor.
 
-6. Con la terminal en el subdirectorio ~ProblemasOHM~, dar el comando 
+6) Con la terminal en el subdirectorio ~ProblemasOHM~, dar el comando 
    : $ git commit -am "Mensaje describiendo los cambios hechos"
 
-7. Nuevamente, con la terminal en el subdirectorio ~ProblemasOHM~, dar
+7) Nuevamente, con la terminal en el subdirectorio ~ProblemasOHM~, dar
    el comando (puede ser que el sistema nos pida la "passphrase" del paso 3)
    : $ git push
 
-8. Con el paso 7, hemos subido nuestros cambios a Github. Podemos
+8) Con el paso 7, hemos subido nuestros cambios a Github. Podemos
    seguir editando los archivos y repitiendo los pasos 6. y 7. cuantas
    veces sea necesario.
 
-9. Las siguientes ocasiones, antes de empezar a trabajar es buena idea
+9) Las siguientes ocasiones, antes de empezar a trabajar es buena idea
    bajar los cambios que hayan incorporado otros colaboradores, para
    lo cual es conveniente dar el comando (en el subdirectorio
    ~ProblemasOHM~).
