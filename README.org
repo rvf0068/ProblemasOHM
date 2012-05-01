@@ -16,18 +16,18 @@ Para contribuir con soluciones se sugieren los siguientes pasos:
    comando, el cual creará un subdirectorio llamado ~ProblemasOHM~, que
    contiene los archivos LaTeX que estamos editando.
 
-: $ git clone git@github.com:rvf0068/ProblemasOHM.git
+   : $ git clone git@github.com:rvf0068/ProblemasOHM.git
 
 5. Editar algún archivo con cualquier editor.
 
 6. Con la terminal en el subdirectorio ~ProblemasOHM~, dar el comando 
 
-: $ git commit -am "Mensaje describiendo los cambios hechos"
+   : $ git commit -am "Mensaje describiendo los cambios hechos"
 
 7. Nuevamente, con la terminal en el subdirectorio ~ProblemasOHM~, dar
    el comando (puede ser que el sistema nos pida la "passphrase" del paso 3)
 
-: $ git push
+   : $ git push
 
 8. Con el paso 7, hemos subido nuestros cambios a Github. Podemos
    seguir editando los archivos y repitiendo los pasos 6. y 7. cuantas
@@ -38,7 +38,7 @@ Para contribuir con soluciones se sugieren los siguientes pasos:
    lo cual es conveniente dar el comando (en el subdirectorio
    ~ProblemasOHM~).
 
-: $ git pull
+   : $ git pull
 
 Useful links:
 
