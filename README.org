@@ -10,15 +10,13 @@ Para contribuir con soluciones se sugieren los siguientes pasos:
 
 3. Obtener una "clave SSH", (lo cual necesitará crear una
    "passphrase", de preferencia, distinta a la contraseña de Github) y
-   darla a Github, como se indica al final del paso 2.
+   darla a Github, como se indica en la página del paso anterior.
 
-4. En nuestra máquina, usando la terminal hay que ir a un directorio
-   donde guardemos otros archivos ~LaTeX~, y dar el siguiente comando:
+4. En nuestra máquina, usando la terminal, hay que dar el siguiente
+   comando, el cual creará un subdirectorio llamado ~ProblemasOHM~, que
+   contiene los archivos LaTeX que estamos editando.
 
 : $ git clone git@github.com:rvf0068/ProblemasOHM.git
-
-   Se creará un subdirectorio llamado ~ProblemasOHM~, que contiene los
-   archivos ~LaTeX~ que estamos editando.
 
 5. Editar algún archivo con cualquier editor.
 
@@ -26,16 +24,10 @@ Para contribuir con soluciones se sugieren los siguientes pasos:
 
 : $ git commit -am "Mensaje describiendo los cambios hechos"
 
-   donde, por supuesto, en lugar de /Mensaje describiendo los cambios
-   hechos/, escribimos un (breve) mensaje describiendo los cambios
-   hechos.
-
 7. Nuevamente, con la terminal en el subdirectorio ~ProblemasOHM~, dar
-   el comando:
+   el comando (puede ser que el sistema nos pida la "passphrase" del paso 3)
 
 : $ git push
-
-   Aquí puede ser que el sistema nos pida la "passphrase" del paso 3.
 
 8. Con el paso 7, hemos subido nuestros cambios a Github. Podemos
    seguir editando los archivos y repitiendo los pasos 6. y 7. cuantas
@@ -43,11 +35,10 @@ Para contribuir con soluciones se sugieren los siguientes pasos:
 
 9. Las siguientes ocasiones, antes de empezar a trabajar es buena idea
    bajar los cambios que hayan incorporado otros colaboradores, para
-   lo cual es conveniente dar el comando
+   lo cual es conveniente dar el comando (en el subdirectorio
+   ~ProblemasOHM~).
 
 : $ git pull
-
-   con la terminal en el subdirectorio ~ProblemasOHM~.
 
 Useful links:
 
