@@ -1,8 +1,56 @@
-#+title: Problemas resueltos de la Olimpiada de MatemÃ¡ticas en Hidalgo
+#+title: Problemas resueltos de la Olimpiada de Matemáticas en Hidalgo
 
-A book which hopefully will help prepare for the Math Olympiad. 
+Para contribuir con soluciones se sugieren los siguientes pasos:
+
+1. Obtener una cuenta gratuita en Github [[https://github.com/signup/free][aquí]], y enviarme un correo
+   con el nombre de usuario para que lo incorpore a la lista de
+   colaboradores. 
+
+2. Instalar el programa ~git~. Hay instrucciones [[http://help.github.com/set-up-git-redirect][aquí]].
+
+3. Obtener una "clave SSH", (lo cual necesitará crear una
+   "passphrase", de preferencia, distinta a la contraseña de Github) y
+   darla a Github, como se indica al final del paso 2.
+
+4. En nuestra máquina, usando la terminal hay que ir a un directorio
+   donde guardemos otros archivos ~LaTeX~, y dar el siguiente comando:
+
+: $ git clone git@github.com:rvf0068/ProblemasOHM.git
+
+   Se creará un subdirectorio llamado ~ProblemasOHM~, que contiene los
+   archivos ~LaTeX~ que estamos editando.
+
+5. Editar algún archivo con cualquier editor.
+
+6. Con la terminal en el subdirectorio ~ProblemasOHM~, dar el comando 
+
+: $ git commit -am "Mensaje describiendo los cambios hechos"
+
+   donde, por supuesto, en lugar de /Mensaje describiendo los cambios
+   hechos/, escribimos un (breve) mensaje describiendo los cambios
+   hechos.
+
+7. Nuevamente, con la terminal en el subdirectorio ~ProblemasOHM~, dar
+   el comando:
+
+: $ git push
+
+   Aquí puede ser que el sistema nos pida la "passphrase" del paso 3.
+
+8. Con el paso 7, hemos subido nuestros cambios a Github. Podemos
+   seguir editando los archivos y repitiendo los pasos 6. y 7. cuantas
+   veces sea necesario.
+
+9. Las siguientes ocasiones, antes de empezar a trabajar es buena idea
+   bajar los cambios que hayan incorporado otros colaboradores, para
+   lo cual es conveniente dar el comando
+
+: $ git pull
+
+   con la terminal en el subdirectorio ~ProblemasOHM~.
 
 Useful links:
 
-- http://sites.google.com/site/ohmpagina/
-- http://entrenamientosohm.wordpress.com/
+- http://en.wikipedia.org/wiki/Git_(software)
+- http://en.wikipedia.org/wiki/Github
+
